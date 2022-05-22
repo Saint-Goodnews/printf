@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    char grp_task;
+grp_task = 'A';
+printf("Displaying the value of the character 'A': %c \n", grp_task);
+printf("Display the value of the character 'A': %d \n", grp_task);
+printf("Display the value of the character 'A': %i \n", grp_task);
+printf("String:%s\n", "We are excellent goup!");
+putc(grp_task, stdout);
+    return 0;
+}
